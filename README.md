@@ -33,3 +33,7 @@ We adopt an **agentic architecture** (e.g., master-agent loops and MCPs) to orch
 <p align="center">
   <img src="public/orchestrator.png" width="800"/>
 </p>
+
+<p align="center">
+  <img src="public/system.png" width="800"/>
+</p>
