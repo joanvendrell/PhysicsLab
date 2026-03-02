@@ -28,21 +28,8 @@ Adopt an **agentic architecture** (e.g., master-agent loops and MCPs) to orchest
 
 ---
 
-## High-Level Architecture
+## 🧠 Agentic AI System Architecture
 
-- **Frontend**
-  - Prompt input (natural language)
-  - Interactive 3D viewer (rotate/zoom/pan)
-  - Field selection (e.g., temperature / von Mises / velocity magnitude)
-
-- **Backend**
-  - Prompt parser → `PDESpec` (domain, PDE, geometry, material, mesh, BCs, outputs)
-  - Solver execution (FEniCS / DOLFINx)
-  - Artifact export (e.g., `.vtp` / VTK formats)
-  - Results API (metadata + artifact URLs)
-
-- **Orchestrator (Agentic Loop)**
-  - Routes prompt to the correct pipeline (heat/solid/fluid/…)
-  - Requests missing info when needed (clarifying questions)
-  - Applies safe defaults when possible
-  - Produces structured outputs (fields, units, ranges, artifacts)
+<p align="center">
+  <img src="public/orchestrator.png" width="800"/>
+</p>
